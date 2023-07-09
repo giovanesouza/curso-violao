@@ -32,6 +32,17 @@ body {
     background-color: var(--color-light);
 }
 
+  /* Alert */
+
+  .alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+
 /* Formatações globais */
 h1 {
     font-size: 3.2rem;
@@ -76,6 +87,9 @@ section#apresentacao {
     align-items: center;
 }
 
+.logo img {
+    border-radius: 4rem;
+}
 
 #apresentacao div {
     flex: 1;
@@ -125,8 +139,20 @@ h3.aprenda-hoje {
 }
 
 
+/* Preços */
+
+.discount {
+    border: 0.1rem solid var(--color-dark-blue);
+    border-radius: 1rem;
+    color: #dc3545;
+    font-weight: bold;
+}
 
 
+/* Questions - Acoordeon */
+.accordion-button {
+    font-weight: bold;
+}
 
 
 
@@ -134,6 +160,26 @@ footer {
     background-color: var(--color-yellow);
 }
 
+footer a {
+    color: var(--color-dark-blue);
+}
+
+
+footer .socialMedia {
+    margin-top: 1rem;
+}
+
+footer .socialMedia a {
+    color: var(--color-secondary);
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: var(--color-orange);
+  }
+  
 
 
 
