@@ -11,7 +11,7 @@ const questions = [
     {
         id: 2,
         question: "Por quanto tempo terei acesso?",
-        answer: "Independente do nível que você adquirir o acesso ao conteúdo será por 12 meses (01 ano).",
+        answer: "O acesso ao conteúdo será ILIMITADO (Vitalício).",
         complement: "Dessa forma, você poderá ver e rever todas as aulas quantas vezes achar necessário."
     },
     {
@@ -30,7 +30,7 @@ const questions = [
         id: 5,
         question: "Terei contato com o professor?",
         answer: "Sim! Seu contato poderá ser feito de 03 formas:  ",
-        complement: `1. Plataforma do curso (hotmart) <br/> 2. Instagram <br/> 3. Aulas de revisão individuais AO VIVO `
+        complement: `1. Plataforma do curso (hotmart) <br/> 2. Instagram <br/>`
     },
     {
         id: 6,
@@ -46,9 +46,8 @@ const questions = [
     },
     {
         id: 8,
-        question: "Não me adaptei ao curso. O que fazer?",
+        question: "Não me adaptei ao curso. Posso pegar meu dinheiro de volta?",
         answer: "Você terá 7 dias corridos a partir do momento da compra para testar o curso, inclusive o meu suporte via plataforma e instagram.",
-        complement: "Se entender que não é para você, basta enviar um único e-mail e solicitar o reembolso, sem ressentimentos."
+        complement: "Se entender que não é para você, basta enviar um e-mail solicitando o reembolso, sem ressentimentos."
     }
-
 ];
